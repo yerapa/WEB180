@@ -1,0 +1,210 @@
+/* font for h2 */
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+body {
+    background-color: #111016;
+    background-image: url('media/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F0F0F0;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#top {
+    text-align: center;
+    margin-top: -2em;
+    margin-bottom: -5em;
+}
+
+#video {
+    margin: 0 auto;
+    margin-bottom: 3.5em;
+    width: 1024px;
+    height: 576px;
+    box-shadow: 0px 7px 20px #000;
+}
+
+h2 {
+    font-family: 'Metamorphous', cursive;
+    font-size: 34pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+main {
+    background-color: #151422;
+    width: 1218px;
+    margin: 0 auto;
+    margin-bottom: 3.5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+main p {
+    line-height: 1.6;
+    padding-bottom: 1em;
+
+}
+
+/*default*/
+.content_wrap {
+    padding-bottom: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+}
+
+.space {
+    margin-bottom: 9em;
+}
+
+.content_wrap_form {
+    background-image: url('media/wolf.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 5em;
+    background-size: 95%;
+    margin-top: 0;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+
+.content_wrap_tour{
+    background-image: url('media/band2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.content_wrap_merch{
+    background-image: url('media/bg3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+
+a {
+    color: #93b9ff;
+}
+
+a:hover {
+    color: #cadcff;
+}
+
+img {
+    padding: 1em;
+    padding-bottom: 4em;
+}
+
+/*border thing*/
+.border {
+    width: 1264px;
+    position: absolute;
+    top: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/*flip border vertically*/
+.border2 {
+    transform: rotateX(180deg);
+    width: 1264px;
+    position: absolute;
+    top: 3527px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.button {
+    background-color: #3f6bae;
+    color: #f6f9ff;
+    font-size: 14pt;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #b5cafd;
+    border-radius: 8px;
+}
+
+.button:hover {
+    color: #f6f9ff;
+    background-color: #567cb6;
+}
+
+ul {
+    font-size: 20pt;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: square;
+    width: 90%;
+    margin: auto;
+    margin-right: -4em;
+    padding: 1em;
+
+    /*two column list*/
+    /* Chrome/Opera, Safari */
+    -webkit-column-count: 2;
+    /* Mozilla Firefox */
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+li {
+    padding: 20px;
+}
+
+/* form */
+label {
+    font-size: 18pt;
+}
+
+input[type=text],
+[type=email] {
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: 18pt;
+    width: 50%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px 0px;
+}
+
+input[type=submit] {
+    background-color: #3f6bae;
+    color: #f6f9ff;
+    font-size: 14pt;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    border: 1px solid #b5cafd;
+    border-radius: 8px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #567cb6;
+}
